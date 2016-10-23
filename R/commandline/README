@@ -1,0 +1,14 @@
+# this folder contains the source code for metaMIR
+# this version of the code is suitable to run on the commandline, with arguments:
+# inputfile - list of genes (HGNC format) to be analyzed
+# mincomb - the minimum combination size to be considered when perfoming the combinatorial analysis (default 5)
+# maxclust - the maximum number of genes to analyze simultaneously (default 15)
+# Zthresh - the minimum score per miRNA:gene-cluster pair to consider (default 1.1)
+# outpath - a user-specified output path, if desired (default creates a "Results" subfolder under the current folder)
+#
+# the main execution file is metaMIR.R
+# support files which need to appear in the same directory are:
+# metaMIR_analytical.R
+# metaMIR_subs.R
+# refnegpos.RData
+# betafit_mv.RData
