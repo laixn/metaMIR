@@ -10,7 +10,10 @@
 # further description is contained in the main batch file
 #
 # support files which need to appear in the same directory are:
-* metaMIR_analytical.R
-* metaMIR_subs.R
-* refnegpos.RData
-* betafit_mv.RData
+# metaMIR_analytical.R
+# metaMIR_subs.R
+# refnegpos.RData
+# betafit_mv.RData
+#
+# the binary refnegpos.RData file is available for free download from https://app.box.com/s/57gk0k5eo3z7rd7cz6q48kxouskcricq
+
