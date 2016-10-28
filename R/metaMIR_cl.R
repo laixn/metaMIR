@@ -7,7 +7,10 @@
 # betafit_mv.RData
 # refposneg.RData
 
-# Run the entire script. The result is the creation of a function called
+# Run the entire script by e.g. using
+# R --slave --vanilla --file=metaMIR_cl.R --args <ARGUMENTS_SEE_BELOW>
+
+# The result is the creation of a function called
 # batch_metaMIR, which takes the following arguments:
 
 # inputfile - name of file to be analyzed, which is a
@@ -52,7 +55,7 @@ scriptPath <- function() {
                 # Rscript
                 return(normalizePath(dirname(sub(needle, "", cmdArgs[match]))));
         } else {
-		stop("run with argument --file=metaMIR.R");
+		stop("run with argument --file=metaMIR_cl.R");
 	}
 }
 
