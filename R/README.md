@@ -34,4 +34,4 @@ This GitHub repository contains the script files and the binary fitting paramete
 # Additional files
 For the script to run, the `refnegpos.RData` binary R object file is also 
 required. This file is too large to host in this repository, but is available 
-for free download [here](https://app.box.com/s/57gk0k5eo3z7rd7cz6q48kxouskcricq)
+for free download [here](http://www.bioinf.uni-freiburg.de/Software/metaMIR/miRNA_predictions.tar.gz)
