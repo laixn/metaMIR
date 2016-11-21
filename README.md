@@ -25,9 +25,9 @@ servers of the
 ## Usage and Installation
 In order to run **metaMIR** locally you have to
 
-* download the source files (`R` folder content of this github repo)
-* download the precompiled reference data [`refposneg.RData`](http://bit.ly/2eKkool)
-* store both downloads in one directory
+* download the source files (`R` folder content of this github repo or of [release file](https://github.com/rnagear/metaMIR/releases))
+* download the precompiled reference data [`miRNA_predictions.tar.gz`](http://www.bioinf.uni-freiburg.de/Software/metaMIR/miRNA_predictions.tar.gz)
+* store and decompress both downloads in one directory
 * call one the main scripts (for details see README in `R` folder)
   * command line : `R --file=metaMIR_cl.R --args <ARGUMENTS_SEE_R_SCRIPT>`
   * Rstudio : open and run `metaMIR_IDE.R`
